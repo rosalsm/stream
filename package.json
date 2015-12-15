@@ -1,0 +1,26 @@
+{
+  "name": "projectstream",
+  "version": "0.0.0",
+  "description": "working in the new stream project",
+  "main": "indext.html",
+  "scripts": {
+    "test": "mocha",
+    "sass": "node-sass src/scss/main.scss src/css/main.css",
+    "start": "browser-sync start --server --files='*.html,css/*.css,js/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosalsm/stream.git"
+  },
+  "author": "Rosa Lopez Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rosalsm/stream/issues"
+  },
+  "homepage": "https://github.com/rosalsm/stream#readme",
+  "dependencies": {
+    "bower": "^1.7.1",
+    "browser-sync": "^2.10.0",
+    "node-sass": "^3.4.2"
+  }
+}
