@@ -1,0 +1,36 @@
+body.home-page{
+  background-color: #1E90FF;
+  font-family: sans-serif;
+}
+main.container{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+}
+div.main-title{
+  h1{
+    color: #F5F5F5;
+    font-size: 2.4em;
+  }
+}
+.big-s{
+  margin-top: 20%;
+  color: #228B22;
+  font-family: Sigmar One;
+  font-weight: 500;
+  font-size: 8em;
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+div.button-sign{
+  button{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #F5F5F5;
+    border-radius: 25px;
+    border: 1px, solid, #F5F5F5;
+    font-size: 1.5em;
+  }
+}
