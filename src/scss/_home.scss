@@ -1,0 +1,96 @@
+$blue: rgb(123,175,212);
+
+body.home-page{
+  //background-color: #1E90FF;
+  background-color: $blue;
+  //font-family: Sigmar One, sans-serif;
+}
+main.container{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10em;
+}
+div.main-title{
+  h1{
+    color: #F5F5F5;
+    font-size: 2.6em;
+    font-family: sans-serif;
+    text-align: center;
+  }
+}
+.big-s{
+  margin-top: 5%;
+  color: #228B22;
+  font-family: Sigmar One;
+  font-weight: 500;
+  font-size: 8em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+div.button-sign{
+  button{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 5px 5px;
+    background-color: #1E90FF;
+    border-radius: 30px;
+    border: 1px solid #1E90FF;
+    font-size: 1em;
+    font-weight: lighter;
+    color: #F5F5F5;
+    opacity: 0.5;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  }
+  button:hover{
+    background-color: #F5F5F5;
+    //color: rgb(30,160,230);
+    border: 1px solid #F5F5F5;
+    color: #1E90FF
+  }
+}
+
+.sign-form{
+  display: none;
+  input, button{
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+  }
+}
+
+ //MOBILE
+@media (max-width: 567px) {
+
+  div.button-sign{
+    button{
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
+
+
+}
+
+
+//TABLET
+@media (max-width: 1024px) and (min-width: 568px){
+
+  main.container{
+    margin-top: 20em;
+  }
+
+  div.button-sign{
+    button{
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+  }
+
+}
