@@ -1,4 +1,4 @@
-$blue: rgb(123,175,212);
+$blue: rgb(0,136,206);
 
 body.home-page{
   //background-color: #1E90FF;
@@ -54,13 +54,23 @@ div.button-sign{
 
 .sign-form{
   display: none;
+  position: relative;
+  //height: 500px;
+  width: 100%;
+  margin-top: 16em;
   input, button{
     display: block;
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 100%;
+    //margin-left: 30%;
+    //margin-right: 30%;
     margin-top: 10px;
+    text-align: center;
+    background-color: $blue;
+    color: white;
+    border: solid $blue 1px;
+    font-size: 26px;
   }
+
 }
 
  //MOBILE
