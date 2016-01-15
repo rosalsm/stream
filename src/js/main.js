@@ -13,9 +13,9 @@ $('.b-sign').on('click', function(){
   //});
   //$('.sign-form').slideToggle();
 
-  $('.sign-form').show().animate({top:'-=250px', opacity:'1'}, 1000)//works for left and right but does not for up
+  $('.sign-form').show().animate({top:'-=250px', opacity:'1'}, 500)//works for left and right but does not for up
   console.log("test 1")
-  $('.main-title, .big-s').animate({top:'-=50px'}, 1000)
+  $('.main-title, .big-s').animate({top:'-=50px'}, 500)
   console.log("test 2")
   //$('.sign-form').show('slide',{direction:'up'}, 100);//.sign-form apprears but .b-sign does not desappear
 
