@@ -1,4 +1,5 @@
 $blue: rgb(0,136,206);
+$darkgradientblue: rgb(0,125,188);
 $lightblue: rgb(135,206,250);
 //$darkblue: rgb(0,0,128);
 $darkblue:rgb(50,120,250);
@@ -25,9 +26,9 @@ $letters: rgb(204,215,219);
 }
 
 main.container{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 100%;
+  //margin-left: 10%;
+  //margin-right: 10%;
   margin-top: 10em;
   margin-bottom: 14em;
 }
@@ -36,8 +37,8 @@ div.main-title{
   h1{
     color: $white;
     font-size: 2.6em;
-    font-family: sans-serif;
-    font-weight: 200;
+    font-family: Poiret One;
+    font-weight: bolder;
     text-align: center;
   }
 }
@@ -54,20 +55,20 @@ div.main-title{
 
 .button-sign{
   button{
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
-    padding: 5px 5px;
+    width: 104%;
+    margin-left: -7%;
+    //margin-right: 40%;
+    padding: 10px 5px;
     background-color: $submitblue;
-    border-radius: 30px;
-    border: 1px solid $submitblue;
+    border-radius: 10px;
+    border: 0.95px solid #0A446A;
     font-size: 16px;
     //font-weight: lighter;
     font-weight: 200;
     letter-spacing:1px;
     color: $white;
     //opacity: 0.5;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    //box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
   }
   button:hover{
     background-color: $white;
@@ -86,13 +87,13 @@ div.main-title{
   //box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
   input, button{
     display: block;
-    width: 104%;
+    width: 85%;
     //border-radius: 5px;
     //margin-left: 30%;
     //margin-right: 30%;
     //text-align: center;
     font-size: 16px;
-    margin-left: -12px;
+    margin-left: 22px;
 
   }
   input{
