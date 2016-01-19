@@ -5,7 +5,10 @@ $darkblue:rgb(50,120,250);
 $mediumblue: #1E90FF;
 $white: #F5F5F5;
 $inputblue: #4BAFE7;
-$submitblue: #0289CF;
+//$submitblue: #0289CF;
+$submitblue: #249BDA;
+$letters: rgb(204,215,219);
+
 
 
 .gradient{
@@ -78,32 +81,44 @@ div.main-title{
   display: none;
   position: relative;
   //height: 500px;
-  width: 100%;
+  width: 104%;
   margin-top: 16em;
+  //box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
   input, button{
     display: block;
-    width: 100%;
-    border-radius: 5px;
+    width: 104%;
+    //border-radius: 5px;
     //margin-left: 30%;
     //margin-right: 30%;
     //text-align: center;
     font-size: 16px;
+    margin-left: -12px;
+
   }
   input{
+    //background-color: black;
     background-color: $inputblue;
     border: solid $inputblue 1px;
-    color: white;
-    margin-top: 3px;
+    color: $white;
+    margin-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     //font-weight: 200;
+    &.username{
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
 
   }
   :placeholder-shown{
-    color: $white;
+    color: $letters;
     font-weight: 200;
   }
   ::-webkit-input-placeholder {
-    color: $white;
-    font-weight: 100;
+    color: $letters;
+    font-weight: 200;
     letter-spacing: 1px;
   }
   button{
@@ -111,8 +126,12 @@ div.main-title{
     background-color: $submitblue;
     border: solid $submitblue 1px;
     color: $white;
-    margin-top: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    margin-top: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    //box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 
 
 
