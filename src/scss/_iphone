@@ -1,0 +1,128 @@
+.top-bar {
+	text-align:center;
+	font-size:10px;
+	padding:1px 3px 2px;
+}
+
+.top-bar .signal,
+.top-bar .wifi {
+	float:left;
+}
+
+.top-bar .wifi {
+	height:10px;
+	width:10px;
+	position:relative;
+	left:5px;
+	top:-1px;
+	overflow:hidden;
+
+	-webkit-transform: 	rotate(45deg);
+	-moz-transform: 		rotate(45deg);
+	-ms-transform: 			rotate(45deg);
+	-o-transform: 			rotate(45deg);
+}
+
+.top-bar .wifi hr {
+	border:none;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	top:7px;
+	left:7px;
+	height:6px;
+	width:6px;
+	background:#fff;
+
+	-moz-border-radius: 		10px;
+  -webkit-border-radius: 	10px;
+  border-radius: 					10px;
+}
+
+.top-bar .wifi hr:before {
+	content:"";
+	display:block;
+	height:8px;
+	width:8px;
+	position:absolute;
+	left:-3px;
+	top:-3px;
+	border:2px solid #fff;
+	-moz-border-radius: 		10px;
+  -webkit-border-radius: 	10px;
+  border-radius: 					10px;
+}
+
+.top-bar .wifi hr:after {
+	content:"";
+	display:block;
+	height:14px;
+	width:14px;
+	position:absolute;
+	left:-6px;
+	top:-6px;
+	border:2px solid #fff;
+	-moz-border-radius: 		10px;
+  -webkit-border-radius: 	10px;
+  border-radius: 					10px;
+}
+.top-bar .time {
+	position:relative;
+	left:6px;
+	font-weight:bold;
+	font-size:9px;
+}
+
+.top-bar .battery {
+	float:right;
+	font-size:9px;
+	position:relative;
+	top:2px;
+}
+
+.top-bar .battery:after {
+	content:"";
+	display:block;
+	height:6px;
+	width:17px;
+	background:#fff;
+	float:right;
+	margin:2px 3px 0px 6px;
+
+	box-shadow:0px 0px 0px 1px rgba(255,255,255,0.7);
+}
+
+.top-bar .battery:before {
+	content:"";
+	display:block;
+	height:2px;
+	width:1px;
+	background:rgba(255,255,255,0.9);
+	float:right;
+	position:relative;
+	top:4px;
+	right:2px;
+
+	box-shadow:0px 0px 0px 1px rgba(255,255,255,0.3);
+}
+
+.iphone .screen .icons {
+	padding:0px 7px;
+}
+
+.iphone .screen .icon {
+	background:#fff;
+	display:inline-block;
+	position:relative;
+	height:46px;
+	width:46px;
+	margin:4px 5px 14px;
+	padding:0px;
+
+	cursor: pointer;
+	cursor: hand;
+
+	-moz-border-radius: 		10px;
+  -webkit-border-radius: 	10px;
+  border-radius: 					10px;
+}
