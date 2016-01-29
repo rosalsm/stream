@@ -5,10 +5,18 @@
 }
 
 .top-bar .signal,
-.top-bar .wifi {
+.top-bar .wifi .att{
 	float:left;
 }
 
+.top-bar .att{
+	height:10px;
+	width:10px;
+	position:relative;
+	left:-90px;
+	top:0px;
+	overflow:hidden;
+}
 .top-bar .wifi {
 	height:10px;
 	width:10px;
@@ -85,11 +93,11 @@
 	display:block;
 	height:6px;
 	width:17px;
-	background:#fff;
+	background:rgb(0,0,0);
 	float:right;
 	margin:2px 3px 0px 6px;
 
-	box-shadow:0px 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:0px 0px 0px 1px rgba(0,0,0,0.7);
 }
 
 .top-bar .battery:before {
@@ -97,13 +105,13 @@
 	display:block;
 	height:2px;
 	width:1px;
-	background:rgba(255,255,255,0.9);
+	background:rgba(0,0,0,0.9);
 	float:right;
 	position:relative;
 	top:4px;
 	right:2px;
 
-	box-shadow:0px 0px 0px 1px rgba(255,255,255,0.3);
+	box-shadow:0px 0px 0px 1px rgba(0,0,0,0.3);
 }
 
 .iphone .screen .icons {
