@@ -26,11 +26,12 @@ $letters: rgb(204,215,219);
 }
 
 main.container{
+
   width: 100%;
   //margin-left: 10%;
   //margin-right: 10%;
-  margin-top: 10em;
   margin-bottom: 14em;
+  margin-top: 1em;
 }
 div.main-title{
   position: relative;
@@ -40,6 +41,7 @@ div.main-title{
     font-family: Poiret One;
     font-weight: bolder;
     text-align: center;
+    margin-top: 3em;
   }
 }
 .big-s{
