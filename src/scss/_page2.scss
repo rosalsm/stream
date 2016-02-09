@@ -73,11 +73,14 @@
   //margin-top: 30px;
   //margin-bottom: 10px;
   font-size: 2em;
-  margin: 77px 10px 10px 10px;
+  margin: 97px 0px 0px 0px;
 
+}
+.icons-nav{
+  background-color: $green;
+  //border-top: 1px solid $darkgreen;
 }
 .fa-home, .fa-video-camera, .fa-camera-retro, .fa-comment-o, .fa-bar-chart, .fa-search{
   color: $white;
-  margin-left: 23px;
-  margin-right: 10px;
+  margin: 10px 10px 10px 23px;
 }
