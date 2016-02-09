@@ -9,6 +9,7 @@ $inputblue: #4BAFE7;
 //$submitblue: #0289CF;
 $submitblue: #249BDA;
 $letters: rgb(204,215,219);
+//$darkletters: rgb(0,0,139);
 
 
 
@@ -20,9 +21,6 @@ $letters: rgb(204,215,219);
       $blue, $lightblue
     );
   //font-family: Sigmar One, sans-serif;
-}
-.gradient2{
-  background-image: linear-gradient($darkblue, $mediumblue);
 }
 
 main.container{
