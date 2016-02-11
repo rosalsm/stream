@@ -10,6 +10,8 @@
   justify-content: center;
   display: -webkit-flex;
   -webkit-justify-content: center;
+  //-webkit-flex-direction: row;
+  //-webkit-align-items: flex-start;
 }
 .post-text{
   margin-right: 10px;
