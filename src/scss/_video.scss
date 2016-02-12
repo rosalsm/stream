@@ -1,0 +1,17 @@
+
+
+
+
+.take-video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  iframe{
+    width: 15em;
+    height: 19em;
+  }
+
+}
