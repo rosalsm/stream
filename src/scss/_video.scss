@@ -9,9 +9,48 @@
   display: -webkit-flex;
   -webkit-align-items: center;
   -webkit-justify-content: center;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+
   iframe{
-    width: 15em;
-    height: 19em;
+    width: 26em;
+    height: 31em;
   }
+}
+.video-control{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  bottom: 50px;
+  //color: $hueso;
+  display: flex;
+  //justify-content: center;
+  display: -webkit-flex;
+  //-webkit-justify-content: center;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  align-items: center;
+  -webkit-align-items: center;
+}
+:placeholder-shown{
+  color: $letters;
+  font-weight: 200;
+}
+::-webkit-input-placeholder {
+  color: $letters;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.video-text{
+  width: 80%;
+  opacity: 0.1;
+  //background-color: $lightblue;
+}
+
+.video-c .fa{
+  font-size: 2em;
+  padding: 5px 15px 5px 15px;
+  color: $lightblue;
 
 }
