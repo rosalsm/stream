@@ -14,8 +14,12 @@
 
   iframe{
     width: 26em;
-    height: 31em;
+    height: 44em;
   }
+}
+.fa-close{
+  position: absolute;
+  right: 0;
 }
 .video-control{
   width: 90%;
@@ -33,22 +37,15 @@
   align-items: center;
   -webkit-align-items: center;
 }
-:placeholder-shown{
-  color: $letters;
-  font-weight: 200;
-}
-::-webkit-input-placeholder {
-  color: $letters;
-  font-weight: 200;
-  letter-spacing: 1px;
-}
+
 .video-text{
   width: 80%;
-  opacity: 0.1;
+  opacity: 0.3;
+  border-radius: 5px;
   //background-color: $lightblue;
 }
 
-.video-c .fa{
+.fa-close, .fa-step-backward, .fa-play, .fa-stop, .fa-pause, .fa-step-forward{
   font-size: 2em;
   padding: 5px 15px 5px 15px;
   color: $lightblue;
