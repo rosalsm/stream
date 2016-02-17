@@ -1,0 +1,13 @@
+.stat-text{
+  float: left;
+  width: 80%;
+  @extend .clearfix;
+  font-weight: bolder;
+}
+.stat-number{
+  float: right;
+  width: 20%;
+  @extend .clearfix;
+  color: $darkblue;
+  font-weight: bolder;
+}
