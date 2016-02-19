@@ -1,0 +1,53 @@
+
+
+
+
+.take-video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+
+  iframe{
+    width: 26em;
+    height: 44em;
+  }
+}
+.fa-close{
+  position: absolute;
+  right: 0;
+}
+.video-control{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  bottom: 50px;
+  //color: $hueso;
+  display: flex;
+  //justify-content: center;
+  display: -webkit-flex;
+  //-webkit-justify-content: center;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.video-text{
+  width: 80%;
+  opacity: 0.3;
+  border-radius: 5px;
+  //background-color: $lightblue;
+}
+
+.fa-close, .fa-step-backward, .fa-play, .fa-stop, .fa-pause, .fa-step-forward{
+  font-size: 2em;
+  padding: 5px 15px 5px 15px;
+  color: $lightblue;
+
+}
