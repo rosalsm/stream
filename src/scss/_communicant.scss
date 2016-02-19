@@ -1,0 +1,40 @@
+$bluehome: #AEDADE;
+$whitehome: #F8F8F8;
+$darkblue: #1A5D8B;
+
+body{
+  background-color: $bluehome;
+  font-family: Gill Sans;
+}
+.header-home-title h2{
+  font-size: 45px;
+  color: $darkblue;
+  margin-left: 10%;
+}
+.central-home{
+  @extend .clearfix;
+}
+.text-1-3{
+  width: 20%;
+  @extend .clearfix;
+  float: left;
+  position: absolute;
+}
+.text-3-3{
+  width: 20%;
+  @extend .clearfix;
+  float: right;
+}
+.img-2-3{
+  width: 100%;
+  img{
+    width: 100%;
+    height: 750px;
+  }
+}
+
+
+.part1 img{
+  width: 10%;
+  border-radius: 10px;
+}
