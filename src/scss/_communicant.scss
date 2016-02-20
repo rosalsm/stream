@@ -6,24 +6,54 @@ body{
   background-color: $bluehome;
   font-family: Gill Sans;
 }
+.header-home-title{
+  display: flex;
+  flex-direction: row;
+
+}
 .header-home-title h2{
+  width: 70%;
   font-size: 45px;
   color: $darkblue;
   margin-left: 10%;
 }
+.header-buttons{
+  padding-top: 35px;
+  width: 20%;
+  button{
+    background-color: $darkblue;
+    color: white;
+    border-radius: 5px;
+    border: $darkblue solid 1px;
+    margin-left: 5%;
+  }
+}
 .central-home{
+  background-image: url('../img/baby2.png');
+  height: 549px;
   @extend .clearfix;
 }
 .text-1-3{
-  width: 20%;
+  width: 22%;
   @extend .clearfix;
   float: left;
   position: absolute;
+  background: rgba(255,255,255,0.4);
+  color: $darkblue;
+  height: 549px;
+  padding: 10px 10px 10px 10px;
+
 }
 .text-3-3{
-  width: 20%;
+  width: 22%;
   @extend .clearfix;
   float: right;
+  background: rgba(255,255,255,0.4);
+  color: $darkblue;
+  height: 549px;
+  padding: 10px 10px 10px 10px;
+
+
 }
 .img-2-3{
   width: 100%;
