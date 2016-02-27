@@ -9,23 +9,29 @@ body{
 .header-home-title{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 
 }
 .header-home-title h2{
-  width: 70%;
+  width: 25%;
   font-size: 45px;
   color: $darkblue;
-  margin-left: 10%;
+  margin-left: 2%;
 }
 .header-buttons{
   padding-top: 35px;
-  width: 20%;
+  //width: 20%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px 10px 20px;
   button{
     background-color: $darkblue;
     color: white;
     border-radius: 5px;
     border: $darkblue solid 1px;
-    margin-left: 5%;
+    margin: 0 10px 5px 10px;
+    width: 90px;
+    font-size: 15px;
   }
 }
 .central-home{
